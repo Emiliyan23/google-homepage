@@ -1,0 +1,35 @@
+.mainarea {
+    text-align:center;
+    margin-top: 210px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin-left: 85%;
+    padding: 0; 
+    background-color: lightgray;
+}
+
+li {
+    display: inline;
+    padding-left: 15px;
+}
+
+#searchbox {
+    width: 600px;
+    height: 40px;
+    border-color:lightgray;
+    border-radius: 40px;
+    font-size: 20px;
+    
+}
+
+#searchbox:focus {
+    outline: none;
+}
+
+#profilepic {
+    width: 15%;
+    border-radius: 50%;
+}
+
