@@ -5,14 +5,66 @@
 
 .navbar {
     list-style-type: none;
-    margin-left: 85%;
+    margin-left: 90%;
     padding: 0; 
-    background-color: lightgray;
+}
+
+.buttons {
+    margin-left: 42%;
+    font-size: 35px;
+}
+
+.googlelocation {
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.leftfooter {
+    position: relative;
+    right: 30px;
+    top: 221px;
+    background-color: #3c40431c;
+    padding-top: 14px;
+    padding-right: 100px;
+    padding-bottom: 14px;
+    width: 1627px;
+}
+
+.rightfooter {
+    position: relative;
+    left: 1490px;
+    top: 170px;
+    width: 200px;
+}
+
+button {
+    
+    background-color: #3c40431c;
+    border-color: transparent;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+button:hover {
+    border-color: #3c404336;
+
 }
 
 li {
     display: inline;
     padding-left: 15px;
+}
+
+a {
+    text-decoration: transparent;
+    color: black;
+}
+
+a:hover {
+    text-decoration: black;
 }
 
 #searchbox {
